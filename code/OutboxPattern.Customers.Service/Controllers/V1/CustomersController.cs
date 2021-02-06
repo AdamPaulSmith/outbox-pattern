@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using OutboxPattern.Customers.Service.Model;
 
 namespace OutboxPattern.Customers.Service.Controllers.V1
 {
@@ -8,6 +9,12 @@ namespace OutboxPattern.Customers.Service.Controllers.V1
     {
         [HttpGet]
         public IActionResult Get()
+        {
+            return Ok();
+        }
+
+        [HttpPost]
+        public IActionResult Post(AddCustomer addCustomer)
         {
             return Ok();
         }

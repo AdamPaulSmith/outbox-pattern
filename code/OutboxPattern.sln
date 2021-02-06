@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutboxPattern.Customers.Service", "OutboxPattern.Customers.Service\OutboxPattern.Customers.Service.csproj", "{0496FD5E-7418-46AA-88C4-386BAD4D43D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutboxPattern.Customers.Tests.Integration", "OutboxPattern.Customers.Tests.Integration\OutboxPattern.Customers.Tests.Integration.csproj", "{B8066D0B-0D7F-48A1-9D61-542945F40EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0496FD5E-7418-46AA-88C4-386BAD4D43D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0496FD5E-7418-46AA-88C4-386BAD4D43D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0496FD5E-7418-46AA-88C4-386BAD4D43D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8066D0B-0D7F-48A1-9D61-542945F40EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8066D0B-0D7F-48A1-9D61-542945F40EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8066D0B-0D7F-48A1-9D61-542945F40EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8066D0B-0D7F-48A1-9D61-542945F40EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

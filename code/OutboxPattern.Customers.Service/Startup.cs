@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OutboxPattern.Customers.Core;
 
 namespace OutboxPattern.Customers.Service
 {
@@ -17,7 +18,8 @@ namespace OutboxPattern.Customers.Service
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddCoreDependencies()
+                    .AddControllers();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
