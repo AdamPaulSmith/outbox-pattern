@@ -151,7 +151,7 @@ namespace OutboxPattern.Customers.Tests.Integration.Customers
                                                                                          addCustomer);
                   });
 
-            "Then the response contains a correctly formatted location header."
+            "Then the response contains a correctly populated customer."
                .x(async stepContext =>
                   {
                       httpResponseMessage.StatusCode.ShouldBe(HttpStatusCode.Created);
